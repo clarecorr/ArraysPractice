@@ -45,6 +45,28 @@ namespace ArraysPractice
             //Console.WriteLine(initials);
             //Console.WriteLine("{0}{1}{2}{3}", initials[0], initials[1], initials[2], initials[3]);
 
+            ////declare an array without yet knowing the elements - this makes space for 21 elements
+            //int[] numberOfSeats = new int[21];
+            //string[] studentsInClass = new string[21];
+            ////dataType[] nameOfArray = new dataType[# of elements];
+
+            ////adding elements to array
+            ////nameOfArray[index] = Element;
+            //studentsInClass[0] = "Jordan";
+
+            ////allow users to enter students into array
+            //Console.WriteLine("Please enter in the name of the next student.");
+            //studentsInClass[1] = Console.ReadLine();
+            //Console.WriteLine("The student in the second seat is {}.", studentsInClass[1]);
+
+            //Console.WriteLine("Please enter the age of the person in the first seat.");
+            ////create a new int array with 21 spots and call it ageOfStudentsInClass
+            //int[] ageOfStudentsInClass = new int[21];
+            //ageOfStudentsInClass[0] = int.Parse(Console.ReadLine());
+            //Console.WriteLine("The age of the student in the first seat is " + ageOfStudentsInClass[0]);
+
+
+
         }
     }
 }
