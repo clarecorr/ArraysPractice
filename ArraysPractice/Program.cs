@@ -65,7 +65,33 @@ namespace ArraysPractice
             //ageOfStudentsInClass[0] = int.Parse(Console.ReadLine());
             //Console.WriteLine("The age of the student in the first seat is " + ageOfStudentsInClass[0]);
 
+            //string[] restaurantsInMall = { "Subway", "Saki", "Dunkin Donuts", "Red Lobster", "Chik-fil-a" };
+            //Console.WriteLine(restaurantsInMall.Length);
 
+            ////for .Length practice create a char array of letters in your middle name and print the # of chars
+
+            //char[] middleName = { 'e', 'l', 'i', 'z', 'a', 'b', 'e', 't', 'h' };
+            //Console.WriteLine(middleName.Length);
+
+            //Declare and initialize a string array
+            //Using the Length property print the second to last element in the array
+
+            //string[] name = { "Clare", "Elizabeth", "Corrigan" };
+            //Console.WriteLine(name[name.Length - 2]);
+            ////or
+            //int numNames = name.Length;
+            //Console.WriteLine(name[numNames - 2]);
+
+            ////Indexof method to search an array for specified value returning index position of first matching value found
+            //int[] bestYearsEver = { 1985, 1999, 1991, 2000, 1985 };
+            //Console.WriteLine(Array.IndexOf(bestYearsEver, 1985));
+            ////LastIndexOf method to search an array for specified value returning index position of last matching value found
+            //Console.WriteLine(Array.LastIndexOf(bestYearsEver, 1985));
+
+            //int[] palindromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
+            //Console.WriteLine(palindromeNumbers[0]);
+            //Array.Reverse(palindromeNumbers);
+            //Console.WriteLine(palindromeNumbers[0]);
 
         }
     }
